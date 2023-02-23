@@ -7,47 +7,55 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans">
-    
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alice">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     
     </head>
-    <body>
-        <div class="menu_bar">
-            <button>🏠</button>
-            <div>HOME</div>
-            <button>MENU</button>
-        </div>
+    <body>        
+        <ul class="menu_bar">
+            <li><a href="./index.html"><i class="material-symbols-rounded">HOME</i></a></li>
+            <li>HOME</li></li>
+            <li class="dropdown">
+              <a href="javascript:void(0)" class="dropbtn"><i class="material-symbols-rounded">MENU</i></a>
+              <div class="dropdown-content">
+                <a href="./brownies.html">BROWNIES</a>
+                <a href="./chicken_satay.html">CHICKEN SATAY</a>
+                <a href="./thai_green_curry.html">THAI GREEN CURRY</a>
+              </div>
+            </li>
+        </ul>
+               
         <div class="header">Pedley Family Recipes</div>
         <div class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at eleifend libero. Curabitur sit amet velit ullamcorper, consectetur nunc eget, ullamcorper sapien. Sed pellentesque eros id leo dignissim egestas. Praesent malesuada blandit nisi, ut tempus felis ultricies ac. Nulla facilisi. Maecenas faucibus elit ut lectus suscipit fringilla. Maecenas nec pulvinar dolor, sit amet maximus nunc. Donec ut mauris eu nisl rutrum bibendum a ac elit. Sed id lacus tellus. Duis eget ex mollis, efficitur augue vitae, fermentum justo. Donec ornare nunc quis erat suscipit, eget posuere justo facilisis. Sed elementum augue eu commodo pellentesque. Sed sed malesuada orci. Sed et efficitur diam.</div>
         <div class="recipe_container">
             <div class="brownies">
                 <img src="./lasagne.jpg">
+                <div class="recipe_title">BROWNIES</div>
                 <div class="recipe_text">
-                    <div class="recipe_title">Brownies</div>
                     <div class="recipe_intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at eleifend libero. Curabitur sit amet velit ullamcorper, consectetur nunc eget, ullamcorper sapien. Sed pellentesque eros id leo dignissim egestas. Praesent malesuada blandit nisi, ut tempus felis ultricies ac. Nulla facilisi.</div>
-                    <button><a href="../odin-recipes/recipes/brownies.html">Find out more</a></button>
+                    <button><a href="../odin-recipes/recipes/brownies.html">VIEW RECIPE ➡</a></button>
                 </div>
             </div>
         
             <div class="thai_green_curry">
                 <img src="./lasagne.jpg">
+                <div class="recipe_title">THAI GREEN CURRY</div>
                 <div class="recipe_text">
-                    <div class="recipe_title">Thai green curry</div>
                     <div class="recipe_intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at eleifend libero. Curabitur sit amet velit ullamcorper, consectetur nunc eget, ullamcorper sapien. Sed pellentesque eros id leo dignissim egestas. Praesent malesuada blandit nisi, ut tempus felis ultricies ac. Nulla facilisi.</div>
-                    <button><a href="../odin-recipes/recipes/curry.html">Find out more</a></button>
+                    <button><a href="../odin-recipes/recipes/curry.html">VIEW RECIPE ➡</a></button>
                 </div>
             </div>  
             
             <div class="chicken_satay">
                 <img src="./lasagne.jpg">
+                <div class="recipe_title">CHICKEN SATAY</div>
                 <div class="recipe_text">
-                    <div class="recipe_title">Chicken Satay</div>
                     <div class="recipe_intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at eleifend libero. Curabitur sit amet velit ullamcorper, consectetur nunc eget, ullamcorper sapien. Sed pellentesque eros id leo dignissim egestas. Praesent malesuada blandit nisi, ut tempus felis ultricies ac. Nulla facilisi.</div>
-                    <button><a href="../odin-recipes/recipes/lasagne.html">Find out more</a></button>
+                    <button><a href="../odin-recipes/recipes/lasagne.html">VIEW RECIPE ➡</a></button>
                 </div>
             </div>
         </div>
 
-        <div class="footer">by Lizzy Pedley</div>
+        <div class="footer">BY LIZZY PEDLEY</div>
         </body>
 </html>
