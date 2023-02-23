@@ -1,0 +1,51 @@
+body {
+    background-color: #D4E4E8;
+    margin: 0;
+    font-family: 'Josefin Sans';
+    color: #178B43;
+}
+
+
+.menu_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 8px 5px;
+    font-size: small;
+}
+
+.header {
+    font-family: 'Lobster';
+    text-align: center;
+    padding: 40px 0px;
+    font-size: 60px;
+}
+
+.intro {
+    font-size: 20px;
+    text-align: center;
+    padding: 0px 100px 40px 100px;
+}
+
+.recipe_container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 80px;
+}
+
+.brownies, .thai_green_curry, .chicken_satay {
+    background-color: white;
+    flex-basis: 300px;
+    flex-wrap: wrap;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    background-color: #178B43;
+    color: white;
+    padding: 5px 0px;
+    margin-top: 40px;
+}
