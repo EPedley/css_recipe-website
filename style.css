@@ -13,7 +13,7 @@ body {
     color: #A1A1A1;
     padding: 4px 10px;
     font-size: small;
-    border-bottom: 0.25px solid ##A1A1A1;
+    border-bottom: 0.25px solid #A1A1A1;
     box-shadow: 0px 0px 5px 0px;
 }
 
@@ -33,7 +33,7 @@ ul > li {
     float: left;
 }
   
-li a, .dropbtn, {
+li a, .dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
@@ -74,7 +74,6 @@ li.dropdown {
     display: block;
 }
 
-
 .header {
     font-family: 'Lobster';
     text-align: center;
@@ -101,7 +100,7 @@ li.dropdown {
 
 img {
     width: 300px;
-    margin: 0;
+    display: block;
 }
 
 .recipe_text {
@@ -198,7 +197,7 @@ ol {
 }
 
 .title {
-    height: 198px;
+    flex-basis: 198px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -215,4 +214,5 @@ ol {
 
 .recipe_steps {
     padding-top: 30px;
+    display: flex;
 }
