@@ -1,8 +1,7 @@
 body {
-    background-color: #D4E4E8;
+    background-color: #fbe8a6;
     margin: 0;
     font-family: 'Josefin Sans';
-    color: #178B43;
 }
 
 
@@ -11,6 +10,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: white;
+    color: #B4DFE5;
     padding: 8px 5px;
     font-size: small;
 }
@@ -18,34 +18,50 @@ body {
 .header {
     font-family: 'Lobster';
     text-align: center;
-    padding: 40px 0px;
+    padding: 20px 0px;
     font-size: 60px;
+    color: #303c6c;
 }
 
 .intro {
     font-size: 20px;
     text-align: center;
-    padding: 0px 100px 40px 100px;
+    padding: 20px 125px;
+    color: #F4976C;
+    background-color: white;
 }
 
 .recipe_container {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding: 0px 80px;
+    margin: 20px 0px;
+}
+
+img {
+    width: 300px;
+}
+
+.recipe_text {
+    padding: 10px;
+}
+
+.recipe_intro {
+    padding: 10px 0px;
 }
 
 .brownies, .thai_green_curry, .chicken_satay {
     background-color: white;
     flex-basis: 300px;
-    flex-wrap: wrap;
-    padding: 20px;
+    flex-shrink: 0;
     text-align: center;
+    color: #F4976C;
 }
 
 .footer {
     text-align: center;
-    background-color: #178B43;
-    color: white;
+    background-color: white;
+    color: #B4DFE5;
     padding: 5px 0px;
-    margin-top: 40px;
 }
