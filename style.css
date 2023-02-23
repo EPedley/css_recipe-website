@@ -29,7 +29,7 @@ ul {
     background-color: #333;
 }
   
-li {
+ul > li {
     float: left;
 }
   
@@ -86,8 +86,9 @@ li.dropdown {
 .intro {
     font-size: 16px;
     text-align: center;
-    padding: 60px 125px;
+    padding: 50px 125px;
     background-color: #F1F2F2;
+    line-height: 24px;
 }
 
 .recipe_container {
@@ -119,6 +120,7 @@ img {
     padding: 10px 0px 12px 0px;
     font-size: 12px;
     font-family: 'Alice';
+    line-height: 20px;
 }
 
 .brownies, .thai_green_curry, .chicken_satay {
@@ -136,7 +138,12 @@ a:link {
     text-decoration: none;
     color: #F94023;
     font-size: 12px;
+    
   }
+
+a:visited {
+    color: #F94023;
+}
 
 button {
     transition-duration: 0.4s;
@@ -151,4 +158,61 @@ button {
     color: white;
     padding: 10px 0px;
     font-size: 12px;
+}
+
+
+/*CSS for the individual recipe pages */
+
+.recipe_page_container {
+    display: flex;
+    height: 90vh;
+}
+
+.recipe_page_banner {
+    background-color:#f9f9f9;
+    margin-left: 125px;
+}
+
+.recipe_page_text {
+    text-align: left;
+    padding: 0px 125px 0px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe_title {
+    text-align: center;
+}
+
+.recipe_page_banner > ol {
+    list-style-type: none;
+    padding-left: 20px;
+    font-size: 15px;
+    line-height: 30px;  
+}
+
+ol {
+    padding-left: 20px;
+    font-size: 15px;
+    line-height: 30px;  
+}
+
+.title {
+    height: 198px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title > .header {
+    text-align: left;
+    padding-top: 20px;
+}
+
+.recipe_page_intro {
+    line-height: 30px;
+}
+
+.recipe_steps {
+    padding-top: 30px;
 }
