@@ -101,11 +101,16 @@ li.dropdown {
 
 img {
     width: 300px;
+    height: 300px;
     display: block;
+    object-fit: cover;
 }
 
 .recipe_text {
-    padding: 10px 15px 25px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 20px 20px 20px;
 }
 
 .recipe_title {
@@ -123,7 +128,7 @@ img {
     line-height: 20px;
 }
 
-.brownies, .thai_green_curry, .chicken_satay {
+.brownies, .chicken_satay, .chicken_fajitas {
     background-color: #F1F2F2;
     flex-basis: 300px;
     flex-shrink: 0;
@@ -205,10 +210,12 @@ ol {
 }
 
 .title {
-    flex-basis: 198px;
+    flex-basis: 220px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .title > .header {
@@ -221,7 +228,7 @@ ol {
 }
 
 .recipe_steps {
-    padding-top: 37px;
+    padding-top: 33px;
     display: flex;
 }
 
