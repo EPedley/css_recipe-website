@@ -1,2 +1,2 @@
-# odin-recipes
-This is my first website I am learning to build with the Odin Project. I will learn how to use HTML to build a website, including several different pages, and basic formatting. I will also practice using the command line and git to better understand commits.
+# css_recipe_website
+This is my first website I am learning to build with the Odin Project. I will learn how to use HTML to build a website, including several different pages, and basic formatting using CSS. I will also practice using the command line and git to better understand commits.

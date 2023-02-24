@@ -11,10 +11,10 @@ body {
     align-items: center;
     background-color: white;
     color: #A1A1A1;
-    padding: 4px 10px;
+    padding: 0px 10px;
     font-size: small;
-    border-bottom: 0.25px solid #A1A1A1;
     box-shadow: 0px 0px 5px 0px;
+    line-height: 0px;
 }
 
 #menu_bar_buttons {
@@ -58,6 +58,7 @@ li.dropdown {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    padding: 5px 0px;
 }
   
 .dropdown-content a {
@@ -141,7 +142,7 @@ a:link {
   }
 
 a:visited {
-    color: #F94023;
+    color: inherit;
 }
 
 button {
@@ -149,6 +150,10 @@ button {
     cursor: pointer;
     color: #333333;
     border: 0;
+}
+
+.recipe_buttons {
+    color: #F94023;
 }
 
 .footer {
@@ -164,7 +169,6 @@ button {
 
 .recipe_page_container {
     display: flex;
-    height: 90vh;
 }
 
 .recipe_page_banner {
@@ -185,9 +189,13 @@ button {
 
 .recipe_page_banner > ol {
     list-style-type: none;
-    padding-left: 20px;
-    font-size: 15px;
+    padding-left: 40px;
+    font-size: 13px;
     line-height: 30px;  
+}
+
+.recipe_ingredients {
+    padding-top: 10px;
 }
 
 ol {
@@ -213,6 +221,10 @@ ol {
 }
 
 .recipe_steps {
-    padding-top: 30px;
+    padding-top: 37px;
     display: flex;
+}
+
+strong {
+    padding-left: 10px;
 }
