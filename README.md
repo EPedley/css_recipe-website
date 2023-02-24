@@ -1,2 +1,3 @@
 # css_recipe_website
-This is my first website I am learning to build with the Odin Project. I will learn how to use HTML to build a website, including several different pages, and basic formatting using CSS. I will also practice using the command line and git to better understand commits.
+
+Welcome to my family's recipe website! I originally built a very primitive website using HTML as part of my progress through The Odin Project, however I really enjoyed using CSS and HTML. As such I wanted to build on this concept and create a small passion project - a website to host all my favourote recipes from childhood! I'm always having to ask family members for old recipes, and often lose the recipes in tonnes of Whatsapp messages, so I wanted to make them easy to access for myself and my family. I am hoping to continue adding more recipes as my family request them.
